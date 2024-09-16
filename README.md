@@ -1,1 +1,3 @@
-Statistical analysis of the 1,000 highest grossing films. 
+# BoxOfficeAnalysis
+
+This project looked at the top 1000 highest earning films, how much they earn, how critics view them, and what factors could contribute to them becoming blockbusters. First, a flat file containing over 140,000 films was extracted and cleaned from the Rotten Tomatoes (RT) database. Subsequently, website data from boxofficemojo (subordinate to IMDB) was used to produce a dataset of the top 1000 highest-earning films. This dataset was further supplemented by making calls to the IMDB API. Once movie data was gathered from both the IMDB and RT databases into dataframes, all this data was merged and added to an SQLite database. All data manipulation was conducted in a python Jupyter notebook. 
